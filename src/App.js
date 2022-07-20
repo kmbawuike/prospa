@@ -25,18 +25,20 @@ function App() {
     }
   }
 
-  const updateAccounts = async () => {
-    try {
-      const res = axios.get("https://stage.getprospa.com/api/v1/account/holder_sub_wallets/548", {
-        headers: {
-          Authorization: 'Token d337ca660fdf9b2181d81fc064e4527e2e6b739d1a4dc57e93c30efa0fdb309d'
-        }
-      })
-      console.log(res)
-    } catch (e) {
-      console.log(e)
-    }
-  }
+  // const updateAccounts = async () => {
+  //   try {
+  //     const res = axios.get("https://stage.getprospa.com/api/v1/account/holder_sub_wallets/548", {
+  //       headers: {
+  //         Authorization: 'Token d337ca660fdf9b2181d81fc064e4527e2e6b739d1a4dc57e93c30efa0fdb309d'
+  //       }
+  //     })
+  //     console.log(res)
+  //   } catch (e) {
+  //     console.log(e)
+  //   }
+  // }
+
+  
   // Logic / Requirement for implmenting update is not clear
 
   const setDefaultAccount = async () => {
